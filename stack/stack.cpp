@@ -35,4 +35,9 @@ public:
         cout << "Push value: " << value << endl;
         return value;
     }
+    // pop operation
+    void pop()
+    {
+        Node *temp = top;
+    }
 }
