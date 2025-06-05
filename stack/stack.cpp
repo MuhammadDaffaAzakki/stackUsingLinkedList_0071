@@ -24,3 +24,12 @@ public:
     {
         top = NULL; //initialize the stack with a null top
     }
+
+    // Push operation: insert an element onto the top 
+    int push(int value)
+    {
+        Node *newNode = new Node(); // 1.Allocate memory
+        newNode->data = value; //2. assign value
+        newNode->next = top; //3. set the next point
+    }
+}
