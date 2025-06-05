@@ -46,10 +46,10 @@ public:
         }
 
         cout << "Popped value: " << temp->data << endl;
-        top = temp->next; // update the top pointer_safety
+        top = temp->next; // update the top pointer
         delete temp;
     }
-    // prrk/Top operation
+    // peek/Top operation
     void peek()
     {
         if (isEmpty())
@@ -70,11 +70,14 @@ public:
 
     bool isEmpty()
     {
-        return top == NULL; // return true
+        return top == NULL; // return true if the top pointer
     }
 };
 
 int main()
 {
-    
+    Stack stack;
+
+    int choice = 0;
+    int value;
 }
