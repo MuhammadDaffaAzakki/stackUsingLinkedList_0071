@@ -67,4 +67,9 @@ public:
             cout << endl;
         } // return the value
     }
-}
+
+    bool isEmpty()
+    {
+        return top == NULL; // return true
+    }
+};
