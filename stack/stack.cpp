@@ -49,4 +49,12 @@ public:
         top = temp->next; // update the top pointer_safety
         delete temp;
     }
+    // prrk/Top operation
+    void peek()
+    {
+        if (isEmpty())
+        {
+            cout << "List is empty." << endl;
+        }
+    }
 }
