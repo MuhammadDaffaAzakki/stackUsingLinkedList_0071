@@ -31,5 +31,8 @@ public:
         Node *newNode = new Node(); // 1.Allocate memory
         newNode->data = value; //2. assign value
         newNode->next = top; //3. set the next point
+        top = newNode;  // 4. update the top point
+        cout << "Push value: " << value << endl;
+        return value;
     }
 }
